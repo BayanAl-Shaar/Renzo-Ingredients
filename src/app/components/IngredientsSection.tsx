@@ -91,7 +91,10 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
       <table className="w-full mt-10 border-collapse">
         <tbody>
           {ingredients.map((ingredient) => (
-            <tr key={ingredient.id} className="border-b border-gray-200">
+            <tr
+              key={ingredient.id}
+              className="border-b border-gray-200 transition-colors hover:bg-gray-50"
+            >
               <td className="p-4 align-middle">
                 <div className="h-16 w-16 overflow-hidden rounded-lg border border-gray-200 bg-white">
                   <ImageWithFallback
