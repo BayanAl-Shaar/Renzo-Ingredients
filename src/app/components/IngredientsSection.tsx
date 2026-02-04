@@ -60,10 +60,10 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
             {/*<p className="text-sm uppercase tracking-[0.32em] text-[#8B6B3E] font-el-messiri">
-              Kitchen essentials
+              Kitchen essentials for coocking ingrediants
             </p>*/}
             <h1 className="mt-3 text-5xl text-[#2F2315] font-el-messiri">
-              Premium Ingredients renzo
+              Premium Ingredients
             </h1>
             <p className="mt-3 max-w-lg text-base text-[#5C5347]">
               Curated for flavor and balance. Smaller visuals keep the list dense
