@@ -63,7 +63,7 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
               Kitchen essentials
             </p>*/}
             <h1 className="mt-3 text-5xl text-[#2F2315] font-el-messiri">
-              Premium Ingredients
+              Premium Ingredients renzo
             </h1>
             <p className="mt-3 max-w-lg text-base text-[#5C5347]">
               Curated for flavor and balance. Smaller visuals keep the list dense
