@@ -71,13 +71,13 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-4">
-            <div className="border border-[#E6DED3] bg-white/70 px-5 py-3 backdrop-blur">
+            <div className="border border-[#E6DED3] bg-white px-5 py-3">
               <div className="text-[0.65rem] uppercase tracking-[0.3em] text-[#8B6B3E] font-el-messiri">
                 Servings
               </div>
               <div className="text-2xl text-[#2F2315] font-el-messiri">4</div>
             </div>
-            <div className="bg-[#2F2315] px-5 py-3 text-white shadow-[0_10px_25px_rgba(47,35,21,0.25)]">
+            <div className="bg-[#2F2315] px-5 py-3 text-white">
               <div className="text-[0.65rem] uppercase tracking-[0.3em] text-[#EADCC8] font-el-messiri">
                 Items
               </div>
@@ -91,9 +91,9 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
       <table className="w-full mt-10 border-collapse">
         <tbody>
           {ingredients.map((ingredient) => (
-            <tr key={ingredient.id} className="border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <tr key={ingredient.id} className="border-b border-gray-200">
               <td className="p-4 align-middle">
-                <div className="h-16 w-16 overflow-hidden rounded-lg border border-gray-200 bg-gray-100">
+                <div className="h-16 w-16 overflow-hidden rounded-lg border border-gray-200 bg-white">
                   <ImageWithFallback
                     src={ingredient.image}
                     alt={ingredient.name}
@@ -118,12 +118,12 @@ export default function IngredientsSection({ layout = 'structured' }: Props) {
 
       {/* Action Buttons */}
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-8">
-        <button className="flex items-center gap-2 bg-[#011F4B] px-6 py-3 text-white text-base hover:bg-[#011F4B] font-el-messiri">
+        <button className="flex items-center gap-2 bg-[#011F4B] px-6 py-3 text-white text-base font-el-messiri">
           <Play className="w-4 h-4 fill-current" />
           <span>Watch recipe</span>
         </button>
 
-        <button className="bg-[#011F4B] px-10 py-3.5 text-white text-base hover:bg-[#011F4B] font-el-messiri">
+        <button className="bg-[#011F4B] px-10 py-3.5 text-white text-base font-el-messiri">
           <span>Start Cooking</span>
         </button>
       </div>
