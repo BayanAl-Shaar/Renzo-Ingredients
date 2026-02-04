@@ -1,0 +1,7 @@
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: "El Messiri", "Playfair Display", "Plus Jakarta Sans", serif;
+  }
+}
